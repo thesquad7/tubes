@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847973549727",
+    "project_id": "firetest-618bd",
+    "storage_bucket": "firetest-618bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847973549727:android:3056a2f41e937a00fa44aa",
+        "android_client_info": {
+          "package_name": "com.example.aviation_builder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847973549727-058k6rmeu7q5t93jobhlqt8ld9aclmqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm7qxOiqnSybo45flZUHK9m2hJ6yu1hrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847973549727-058k6rmeu7q5t93jobhlqt8ld9aclmqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

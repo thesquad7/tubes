@@ -103,9 +103,9 @@ class _LoginScreenState extends State<LoginScreen> {
           Fluttertoast.showToast(
           msg: "Masuk",
           toastLength: Toast.LENGTH_SHORT,
-          gravity: ToastGravity.CENTER,
+          gravity: ToastGravity.BOTTOM,
           timeInSecForIosWeb: 1,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.black38,
           textColor: Colors.white,
           fontSize: 16.0
           ); 
@@ -331,9 +331,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
           Fluttertoast.showToast(
           msg: "Terdaftar",
           toastLength: Toast.LENGTH_SHORT,
-          gravity: ToastGravity.CENTER,
+          gravity: ToastGravity.BOTTOM,
           timeInSecForIosWeb: 1,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.black38,
           textColor: Colors.white,
           fontSize: 16.0
           );
@@ -363,7 +363,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
       appBar:AppBar(
             elevation: 0,
             leading: IconButton(
-            onPressed: () {Navigator.pop(context);},
+            onPressed: () {Navigator.pop(context);
+            context.read<authtentikasi>().Keluar();},
             icon: Icon(Icons.login),
   ),),
       body: AnnotatedRegion<SystemUiOverlayStyle>(
